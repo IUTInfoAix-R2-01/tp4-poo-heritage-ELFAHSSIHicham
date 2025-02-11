@@ -8,6 +8,7 @@ public class VeloElec extends Velo{
 	
 	public VeloElec(double braquet, double diamRoue, double coupleMoteur) {
 		super(braquet,diamRoue);
+		this.DEFAUT_COUPLE_MOTEUR = coupleMoteur;
 	}
 	
 	
